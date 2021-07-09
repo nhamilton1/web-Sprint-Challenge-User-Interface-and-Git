@@ -187,10 +187,6 @@ footer nav a {
 }
 
 
-.container {
-    /* border: 1px solid black; */
-}
-
 header {
     /* border: 1px solid black; */
     height: 10vh;
@@ -261,4 +257,56 @@ header a{
 
 .bottom-contentabout .text-container:last-child {
     padding-right: 0;
+}
+
+.middle-contentabout h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+
+.middle-contentabout {
+    margin-bottom: 20px;
+    /* border-bottom: 1px dashed black; */
+    display: flex;
+    flex-flow: row wrap;
+    /* width: 350px; */
+    align-content: space-evenly;
+    justify-content: space-around;
+
+}
+
+/* .strategybox{
+    display: flex;
+    flex-flow: column wrap;
+    width: 350px;
+    border-bottom: 1px dashed black;
+}
+
+.HowWeWork{
+    display: flex;
+    flex-flow: column wrap;
+    width: 350px;
+    border-bottom: 1px dashed black;
+}
+
+.PlacesWeWork{
+    display: flex;
+    flex-flow: column wrap;
+    width: 350px;
+    border-bottom: 1px dashed black;
+}
+
+.Collab{
+    display: flex;
+    flex-flow: column wrap;
+    width: 350px;    
+    border-bottom: 1px dashed black;
+} */
+
+
+.middle-contentabout .strategybox,.HowWeWork,.PlacesWeWork,.Collab{
+    display: flex;
+    flex-flow: column wrap;
+    width: 350px;    
+    border-bottom: 1px dashed black;
 }
