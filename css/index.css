@@ -144,3 +144,51 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+.container {
+    /* border: 1px solid black; */
+}
+
+header {
+    /* border: 1px solid black; */
+    height: 10vh;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+.lambdaLogo {
+    /* border: 1px solid black; */
+    display: inline-block;
+    width: 150px;
+    height: 90px;
+}
+
+.lambdaLogo img{
+    width: 185px;
+}
+
+header nav{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    margin-top: -80px;
+    margin-left: 150px;
+}
+
+/* Need to add more stuff here */
+header a{
+    text-decoration: none;
+    color: black;
+}
+
+.jumboImg {
+    /* border: 1px solid black; */
+    height: 175px;
+    margin-top: 30px;
+}
