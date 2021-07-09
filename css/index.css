@@ -253,9 +253,6 @@ header a{
     display: flex;
     margin: 0 2% 20px;
     margin-top: 40px;
-    justify-content: space-around;
-    border-top: 1px dotted black;
-    padding-top: 20px;
 }
 
 .bottom-contentabout .text-container {
