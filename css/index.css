@@ -71,6 +71,7 @@ p {
     margin: 0 auto;
 }
 
+/* home page top content end  */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,7 +85,9 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+/* home page top content end  */
 
+/* home page middle content start */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -104,14 +107,57 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+/* home page middle content end */
 
+/* home page box color start  */
+.middle-content .boxes .box:nth-child(1){
+    background-color: teal;
+}
+
+.middle-content .boxes .box:nth-child(2){
+    background-color: gold;
+}
+
+.middle-content .boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4){
+    background-color: coral;
+}
+
+.middle-content .boxes .box:nth-child(5){
+    background-color: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9){
+    background-color: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10){
+    background-color: dodgerblue;
+}
+/* home page box colors end */
+
+/* Bottom content home page start */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,7 +171,9 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+/* Bottom content home page end  */
 
+/* Footer start */
 footer {
     width: 100%;
     background: black;
@@ -144,3 +192,118 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* Footer end */
+
+/* Top nav bar and img start  */
+header {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.lambdaLogo {
+    display: inline-block;
+    width: 150px;
+    height: 90px;
+}
+
+.lambdaLogo img{
+    width: 185px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    margin-top: -80px;
+    margin-left: 150px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: .90rem;
+}
+
+.jumboImg {
+    height: 175px;
+    margin-top: 30px;
+}
+/* Top nav bar and img end  */
+
+/* Top content about section start */
+.top-contentabout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-bottom: 1px dashed black;
+}
+
+.top-contentabout .text-containerabout {
+    width: 90%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+/* Top content about section end*/
+
+/* Middle content about start */
+.middle-contentabout h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.middle-contentabout {
+    margin-bottom: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-evenly;
+    justify-content: space-around;
+}
+
+.middle-contentabout .strategybox,.HowWeWork,.PlacesWeWork,.Collab{
+    display: flex;
+    flex-flow: column wrap;
+    width: 350px;    
+    border-bottom: 1px dashed black;
+    margin-top: 40px;
+}
+
+.middle-contentabout .text-container {
+    padding-right: 4%;
+}
+
+.middle-contentabout .text-container:last-child {
+    padding-right: 0;
+}
+
+.middle-contentabout p{
+    margin-bottom: 15px;
+}
+
+.middle-contentabout button{
+    margin-bottom: 15px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 10%;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 1em;
+}
+/* Middle content about end */
+
+/* Bottom about content start */
+.bottom-contentabout .text-container {
+    padding-right: 4%;
+}
+
+.bottom-contentabout .text-container:last-child {
+    padding-right: 0;
+}
+
+.bottom-contentabout {
+    display: flex;
+    margin: 0 2% 20px;
+    margin-top: 40px;
+}
+/* Bottom about content end */
